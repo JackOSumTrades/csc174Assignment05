@@ -4,47 +4,82 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Assignment 5: Odd Student Out | Won Kuk Lee</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+
 </head>
-<body>
-	<header>
-		<a href="index.html">
-			<h1>Assignment 5: Odd Student Out</h1>
-		</a>
-	</header>
+<body class="container">
+	<div class="top-bar">
+		<header>
+			<a href="index.html">
+				<h1 class="russo">
+					<div>Assignment 5:</div>
+					<div class="green">Odd Student Out</div>
+				</h1>
+			</a>
+		</header>
 
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="akshay.html">Akshay Desi</a></li>
-			<li><a href="won.html">Won Kuk Lee</a></li>
-			<li><a href="tom.html">Tom Hogrefe</a></li>
-		</ul>
-	</nav>
+		<div class="nav-wrapper">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="akshay.html">Akshay Desi</a></li>
+					<li><a href="won.html">Won Kuk Lee</a></li>
+					<li><a href="tom.html">Tom Hogrefe</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
 	
-	<h2>Won Kuk Lee</h2>
-		<a href="won.html"><img src="images/won.jpg"
-			alt="Won Kuk Lee"></a>
-		<article>
-
-			<h3>Introduction</h3>
+	<main class="main-grid">
+		<div class="f-layout">
+			<a href="won.html"><img class="img-shadow" src="images/won.jpg" alt="Won Kuk Lee"></a>
+			<div class="sub-header">
+				<h2 class="russo green-hover">Won Kuk Lee</h2>
+				<h3>Introduction</h3>
 				<p>I am currently a senior at the University of Rochester. I’m majoring in Computer Science and plan to graduate this May with a Bachelor of Science. I have a passion for transforming innovative ideas to seamless and elegant web applications.</p>
-
-			<h3>Courses</h3>
+			</div>
+		</div>
+		
+		
+		<article>
+			<div class="article-wrapper">
+				<h3>Courses</h3>
 				<p>I thought that the BS program in the University of Rochester is quite challenging as I struggled through
-            	many of the core courses, most notably CSC 282 and 252. However, I have fortunately gotten through all of
-            	them and only need one more 200 level course to graduate and have decided to take CSC 261 as this final
-            	course. For my advanced CS course electives, I decided to concentrate on web and mobile programming as I’ve
-            	taken CSC 210 and 214. In addition to these courses, I have also taken CSC 170, CSC 172, and currently taking CSC 174</p>
-
-			<h3>Work Experience</h3>
+					many of the core courses, most notably CSC 282 and 252. However, I have fortunately gotten through all of
+					them and only need one more 200 level course to graduate and have decided to take CSC 261 as this final
+					course. For my advanced CS course electives, I decided to concentrate on web and mobile programming as I’ve
+					taken CSC 210 and 214. In addition to these courses, I have also taken CSC 170, CSC 172, and currently
+					taking CSC 174</p>
+			</div>
+			
+			<div class="article-wrapper">
+				<h3>Work Experience</h3>
 				<p>When I was a high schooler, I held a plethora of
-            	different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant experience as I did not have much mentorship. The experience was so awful that I thought I would hate the software engineering industry. Last summer, I worked at Ellucian as a Software Developer Intern. Thankfully in this second internship, I had a very solid mentorship as it was a much bigger company and had a very enriching and invaluable experience.</p>
+					different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
+					summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
+					experience as I did not have much mentorship. The experience was so awful that I thought I would hate the
+					software engineering industry. Last summer, I worked at Ellucian as a Software Developer Intern. Thankfully
+					in this second internship, I had a very solid mentorship as it was a much bigger company and had a very
+					enriching and invaluable experience.</p>
+			</div>
 
-			<h3>Interests</h3>
+			<div class="article-wrapper">
+				<h3>Interests</h3>
 				<p>I grew up mostly in Bergen County, NJ, especially within
-    			the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they worked. I remember milestones like the process of installing my first graphics card, and learning how to mod video games.</p>
-
+					the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they
+					worked. I remember milestones like the process of installing my first graphics card, and learning how to mod
+					video games.</p>
+			</div>
 		</article>
+
+		<aside class="vertical-text text-shadow-green">
+			<div>C</br>O</br>M</br>P</br>U</br>T</br>E</br>R</div>
+			<div>S</br>C</br>I</br>E</br>N</br>C</br>E</div>
+		</aside>
+	</main>
 
 	<footer>
 		© CSC 174: Advanced Front-end Web Design and Development
