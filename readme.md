@@ -42,6 +42,7 @@ The domain of the website is students. Each webpage covers a different students-
 	- footer is "© CSC 174: Advanced Front-end Web Design and Development"
 
 ## Choreography
+- First two students are both Computer Science majors, they are then followed by the Political Science major.
 1. Home (index page)
 2. Akshay Desi
 3. Won Kuk Lee
