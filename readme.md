@@ -1,7 +1,10 @@
 # Assignment 05: Odd Student Out
 - IA: Genessis Galindo
-- CSS: Giovanni Ilacqua
+- Designer: Giovanni Ilacqua
 - Coder: Jack Dalton
+
+### Link to Website
+INSERT HERE BEFORE SUBMISSION TO BLACKBOARD
 
 ## Domain
 The domain of the website is students. Each webpage covers a different students-- two of which are similar (Computer Science majors) and one which is different (Political Science major) but all share: introduction, courses, work experience, and interests.
