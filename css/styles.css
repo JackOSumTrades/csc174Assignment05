@@ -33,29 +33,6 @@ h1{
     font-size: 28px;
 }
 
-aside{
-    font-style: italic;
-    grid-column: 2/4;
-    font-size: 24px;
-
-    padding-top: 205px;
-}
-
-aside ul{
-    margin: 0;
-    margin-left: 10px;
-    padding: 0;
-}
-
-aside li{
-    list-style: none;
-}
-
-main{
-    grid-column: 1/4;
-    margin: 30px 0px;
-}
-
 footer{
     font-family: 'Open Sans Condensed',  Arial, sans-serif;
     font-weight: bold;
@@ -91,6 +68,13 @@ nav a{
     padding: 2px 5px;
 }
 
+section.section-grid{
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 30px 0px;
+    padding: 15px;
+}
+
 /***************************
     LAYOUT
 ****************************/
@@ -111,14 +95,10 @@ nav a{
     border-bottom: 5px solid black;
 }
 
-.f-layout{
-    display: flex;
-    grid-column: 1/4;
-}
-
-.main-grid{
+.section-grid{
     display: grid;
-    grid-template-columns: 1fr 0.2fr;
+    grid-template-columns: 0.8fr 1fr 1fr;
+    grid-column-gap: 25px;
 }
 
 .article-grid{
@@ -134,30 +114,6 @@ nav a{
 ****************************/
 .nav-wrapper{
     margin-top: 40px;
-}
-
-.sub-header{
-    margin-left: 30px;
-}
-
-.sub-header h2{
-    font-size: 38px;
-    margin: 0px;
-}
-
-.article-wrapper{
-    padding: 20px 0px;
-    border-bottom: 1px solid darkslategrey;
-}
-
-.vertical-text {
-	margin-top: -110px;
-    margin-left: 70px;
-    text-align: center;
-}
-
-.vertical-text div:nth-child(1){
-    margin-bottom: 40px;
 }
 
 .img-shadow{
@@ -198,24 +154,11 @@ nav a{
 	text-shadow:0px 1px 0px #9b14b3;
 }
 
-
-
-
 /***************************
     STATE
 ****************************/
-
-
 .is-current{
     border-top: 2px solid black;
-}
-
-.sub-header:hover .red-hover{
-    color: red;
-}
-
-.sub-header:hover .green-hover{
-    color: green;
 }
 
 .myButton:hover {
@@ -240,6 +183,10 @@ nav a{
     font-family: 'Russo One', sans-serif;
 }
 
+.play-fair{
+    font-family: 'Playfair Display', serif;
+}
+
 .green{
     color: green;
 }
@@ -256,30 +203,6 @@ nav a{
     font-weight: bold;
 }
 
-.text-shadow-green{
-    font-family: 'Russo One', sans-serif;
-    font-size: 38px;
-
-    color: transparent;
-    background: green;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
-
-.text-shadow-red{
-    font-family: 'Russo One', sans-serif;
-    font-size: 38px;
-
-    color: transparent;
-    background: red;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
-}
-
 .myButton{
     color:#ffffff;
 	font-family: 'Russo One', sans-serif;
@@ -289,4 +212,11 @@ nav a{
     margin-top: 50px;
     margin-left: 15px;
     padding: 40px;
+}
+
+#odd-one{
+    margin-top: 60px;
+    background-color: khaki;
+    border: 8px ridge red;
+    border-radius: 0px; 
 }
