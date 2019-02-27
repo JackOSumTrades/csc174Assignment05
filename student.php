@@ -2,43 +2,19 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php include "./includes/head.php"; ?>
 	<title>Assignment 5: Odd Student Out | Students</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+	
 </head>
 
 <body class="container">
-	<div class="top-bar">
-		<header>
-			<a href="index.html">
-				<h1 class="russo">
-					<div>Assignment 5:</div>
-					<div class="purple">Odd Student Out</div>
-				</h1>
-			</a>
-		</header>
-
-		<div class="nav-wrapper">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="student.html">Student</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-
+	<?php include "./includes/nav.php"; ?>
 	<main>
 
 		<section class="section-grid">
 			<div>
 				<h2 class="russo green">Akshay Desi</h2>
-				<a href="student.html"><img class="img-shadow" src="images/akshay.jpg" alt="Akshay Desi"></a>
+				<a href="student.php"><img class="img-shadow" src="images/akshay.jpg" alt="Akshay Desi"></a>
 			</div>
 
 
@@ -80,7 +56,7 @@
 		<section class="section-grid">
 			<div>
 				<h2 class="russo green">Won Kuk Lee</h2>
-				<a href="student.html"><img class="img-shadow" src="images/won.jpg" alt="Won Kuk Lee"></a>
+				<a href="student.php"><img class="img-shadow" src="images/won.jpg" alt="Won Kuk Lee"></a>
 
 			</div>
 
@@ -120,7 +96,7 @@
 		<section class="section-grid" id="odd-one">
 			<div>
 				<h2 class="play-fair red">Tom Hogrefe</h2>
-				<a href="student.html"><img class="img-shadow" src="images/tom.jpg" alt="Tom Hogrefe"></a>
+				<a href="student.php"><img class="img-shadow" src="images/tom.jpg" alt="Tom Hogrefe"></a>
 
 			</div>
 
@@ -160,14 +136,8 @@
 			</article>
 		</section>
 
-		<footer>
-			© CSC 174: Advanced Front-end Web Design and Development
-		</footer>
-
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="js/menu-highlighter.js"></script>
-
-
+		<?php include "./includes/footer.php"; ?>
+		<?php include "./includes/scripts.php"; ?>
 </body>
 
 </html>
