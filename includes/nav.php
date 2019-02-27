@@ -2,8 +2,8 @@
 	<header>
 		<a href="index.php">
 			<h1 class="russo">
-				<div>Assignment 5:</div>
-				<div class="purple">Odd Student Out</div>
+				<span class="subh1">Assignment 5:</span>
+				<span class="purple">Odd Student Out</span>
 			</h1>
 		</a>
 	</header>

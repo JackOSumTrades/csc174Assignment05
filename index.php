@@ -17,7 +17,7 @@
 		data-lglabel="Akshay, Won, Tom"></div>
 
 
-	<article class="article-grid">
+	<section class="article-grid">
 		<section>
 			<h2>Akshay Desai</h2>
 			<p>I am a senior at the University of Rochester and majoring in Computer Science. I will be graduating this
@@ -42,7 +42,7 @@
 			<div>Read</div>
 			<div>More</div>
 		</a>
-	</article>
+	</section>
 
 	<?php include "includes/footer.php"; ?>
 

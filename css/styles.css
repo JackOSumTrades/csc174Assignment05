@@ -196,8 +196,13 @@ section.section-grid{
     color: red;
 }
 
+.subh1 {
+    display: block;
+}
+
 .purple{
     color: #a20dbd;
+    display: block;
 }
 
 .nav-wrapper li{
