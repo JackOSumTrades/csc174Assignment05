@@ -7,7 +7,7 @@
 https://github.com/definitelynotavirus/csc174Assignment05
 
 ## Domain
-The domain of the website is students. Each webpage covers a different students-- two of which are similar (Computer Science majors) and one which is different (Political Science major) but all share: introduction (featured on the index), courses, and work experience.
+The domain of the website is students. Each webpage covers a different students-- two of which are similar (Computer Science majors) and one which is different (Political Science major) but all share: coursework.
 
 ## Ontology
 ### Overall Website
@@ -17,10 +17,7 @@ The domain of the website is students. Each webpage covers a different students-
 - Following page goes through the two Computer Science students and the Political Science Student
 
 ### Individual Page
-- Each student has an introduction
-- Each student has a course section
-- Each student has work experience
-- Each student has interests
+- Each student has taken courses for their majors
 
 ## Taxonomy
 ### Index

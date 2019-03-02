@@ -12,7 +12,7 @@
 		<nav>
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="student.php">Student</a></li>
+				<li><a href="students.php">Student</a></li>
 			</ul>
 		</nav>
 	</div>
